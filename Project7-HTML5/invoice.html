@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Τιμολόγιο Αγοράς</title>
+    <style>
+        table, th,tr,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+<h1> Τιμολόγιο Αγοράς σε πίνακα HTML</h1>
+<p> Αρχική έκδοση: <a href="https://html.com/tables/" target="_blank">Table HTML Tutorial</a></p>
+
+<table>
+ <caption>Ένας σύνθετος πίνακας</caption>
+ <thead>
+  <tr>
+   <th colspan="3">Τιμολόγιο #123456789</th>
+   <th>06 Ιουνίου 2018
+  </tr>
+  <tr>
+   <td colspan="2">
+    <strong>Προς :</strong><br>
+    Acme Billing Co.<br>
+    123 Main St.<br>
+    Cityville, NA 12345
+   </td>
+   <td colspan="2">
+    <strong>Πελάτης:</strong><br>
+    John Smith<br>
+    321 Willow Way<br>
+    Southeast Northwestershire, MA 54321
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <th>Είδος / Περιγραφή</th>
+   <th>Ποσότητα</th>
+   <th>Τιμή μονάδας</th>
+   <th>Κόστος</th>
+  </tr>
+  <tr>
+   <td>Συνδετήρες</td>
+   <td>1000</td>
+   <td>0.01</td>
+   <td>10.00</td>
+  </tr>
+  <tr>
+   <td>Συρραπτικά (κουτί)</td>
+   <td>100</td>
+   <td>1.00</td>
+   <td>100.00</td>
+  </tr>
+ </tbody>
+ <tfoot>
+  <tr>
+   <th colspan="3">Υποσύνολο</th>
+   <td> 110.00</td>
+  </tr>
+  <tr>
+   <th colspan="2">ΦΠΑ</th>
+   <td> 8% </td>
+   <td>8.80</td>
+  </tr>
+  <tr>
+   <th colspan="3">Τελική Τιμή</th>
+   <td>&euro; 118.80</td>
+  </tr>
+ </tfoot>
+</table>
+
+
+</body>
+</html>
