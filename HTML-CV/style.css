@@ -1,0 +1,168 @@
+html,
+body {
+    background: #663399;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2.5% 2.5% 0;
+    background: white;
+    line-height: 1.8;
+}
+
+.center {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(107, 107, 132);
+}
+
+h1 {
+    font: 2.2em Verdana, Geneva, sans-serif;
+    margin-bottom: .4em;
+    color: darkblue;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    font: 1.7em Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin-top: 0.8em;
+    font-size: 1.2em;
+    color: blueviolet;
+}
+
+p {
+    margin-bottom: 0.5;
+    text-align: justify;
+}
+
+a {
+    color: rgb(184, 126, 84);
+}
+
+a:hover {
+    color: rgb(120, 97, 55);
+}
+
+pre {
+    font-size: 1.2em;
+    color: white;
+    padding: .5em 1em;
+    border-left: 1em solid #A68048;
+    background: #666;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    width: 80%;
+}
+
+header h2 {
+    padding-bottom: .2em;
+    border-bottom: 1px solid gray;
+}
+
+aside {
+    padding: 1em;
+    background: rgb(83, 104, 138);
+    color: white;
+    margin-bottom: 1em;
+}
+
+aside h3 {
+    color: lightyellow;
+}
+
+footer {
+    border-top: 1px solid gray;
+    text-align: center;
+    font-size: .8em;
+    line-height: 4em;
+    margin-top: 1em;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 25px;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+
+}
+
+thead {
+    font-style: italic;
+    background-color: rgb(235, 235, 235);
+}
+
+caption {
+    font-family: Verdana, sans-serif;
+    padding: 10px;
+    font-style: normal;
+    caption-side: top;
+    color: #000;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 10px;
+}
+
+td {
+    text-align: center;
+}
+
+li {
+    margin-top: 10px;
+}
+
+
+figure > p {
+
+    text-align: center;
+}
+
+
+figcaption {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
